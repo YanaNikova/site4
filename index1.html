@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background: url('img/bk1.png') no-repeat center center;
+            background-size: cover;
+        }
+        li.menu_item:nth-child(1):after {
+            display: block;
+            position: absolute;
+            width: 90%;
+            content: "";
+        }
+        li:nth-child(1) .menu_link {
+            font-weight: bold !important; 
+        }
+        @media(max-width: 767px){
+            li.menu_item:nth-child(1):after {
+            display: block;
+            position: absolute;
+            width: 100%;
+            content: "";
+            margin-left: -27px;
+            }   
+        }
+    </style>
+    <section class="header">
+        <div class="container">
+            <a href="index.html" class="header__logo">
+                <img src="icons/logo.png" alt="">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li class="menu_item"><a href="index1.html" class="menu_link">Основні принципи</a></li>
+                    <li class="menu_item"><a href="index2.html" class="menu_link">Актуальні тренди</a></li>
+                    <li class="menu_item"><a href="index3.html" class="menu_link">Приклади сайтів</a></li>
+                    <li class="menu_item"><a href="index4.html" class="menu_link">Рекомендації</a></li>
+                    <li class="menu_item"><a href="index5.html" class="menu_link">Цікавинки</a></li>
+                </ul> 
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>         
+            </nav>
+
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <h1>Основні принципи веб-дизайну</h1>
+            <div class="descr">
+                Веб-дизайн – це не просто про те, щоб зробити сайт красивим. Він також має бути зручним, функціональним, інформативним та відповідати потребам користувачів. <br> <br>
+                Існує ряд основних принципів веб-дизайну, які допоможуть Вам створити сайт, який буде відповідати всім цим вимогам. <br> <br>
+                <b>1. Типографика</b> <br>
+                Тільки подивіться: на малюнках нижче просто чудово поєднуються шрифти між собою. 
+            </div>
+            <div class="container_img">
+                <img src="img/image 1.png" alt="">
+                <img src="img/image 2.png" alt="">
+            </div>
+            <div class="descr">
+                Для того щоб досягти такого результату потрібно дотримуватися деяких правил для підбору поєднуваних між собою шрифтів. <br><br>
+                Ось декілька з них: <br>
+                <ul>
+                    <li>вибирайте шрифти, які легко читати на екрані;</li>
+                    <li>комбінуйте шрифти з засічками та без них, щоб створити контраст;</li>
+                    <li>не використовуйте занадто багато різних шрифтів (в ідеалі не більше двох).</li>
+                </ul> <br> 
+                <b>2. Колір</b> <br>
+                Знову ж таки, декілька прикладів гарного поєднання кольорів.
+            </div>
+            <div class="container_img">
+                <img src="img/Rectangle 22.png" alt="">
+                <img src="img/Rectangle 23.png" alt="">
+            </div>
+            <div class="descr">
+                Як зробити так само добре: <br>
+                <ul>
+                    <li>використовуйте кольори, які відповідають вашому бренду та цільовій аудиторії;</li>
+                    <li>не використовуйте занадто багато кольорів на одній сторінці.</li>
+                </ul> <br> 
+                <b>3. Навігація</b> <br>
+                За невеличною традицією два приклади гарної навігації. <br> 
+                <div class="container_img_col">
+                    <img class="imgcol" src="img/image 3.png" alt="">
+                    <img class="imgcol" src="img/image 4.png" alt="">
+                </div>
+                <br>На другому зображенні створена доволі проста навігація, на першому трішки складніше але це не межа! Меню та навігацію по сторінкам можна робити же більшою і об’ємнішою, головне триматися цих невеликих порад: <br> 
+                <ul>
+                    <li>зробіть навігацію сайту простою та зрозумілою;</li>
+                    <li>використовуйте чіткі та лаконічні назви для сторінок;</li>
+                    <li>розмістіть навігацію в одному й тому ж місці на всіх сторінках сайту.</li>
+                </ul> <br>
+                <b>Дотримуючись цих принципів, Ви зможете створити веб-сайт, який буде не лише красивим, але й зручним, функціональним, інформативним та відповідати потребам користувачів.</b>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <a href="mailto:design@gmail.com" class="footer_mail">design@gmail.com</a>
+            <div class="footer__descr">© 2024 Всі права захищено</div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

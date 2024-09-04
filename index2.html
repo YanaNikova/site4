@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background: url('img/bk2.png') no-repeat center center;
+            background-size: cover;
+        }
+        li.menu_item:nth-child(2):after {
+            display: block;
+            position: absolute;
+            width: 90%;
+            content: "";
+        }
+        li:nth-child(2) .menu_link {
+            font-weight: bold !important; 
+        }
+        @media(max-width: 767px){
+            li.menu_item:nth-child(2):after {
+            display: block;
+            position: absolute;
+            width: 100%;
+            content: "";
+            margin-left: -27px;
+            }   
+        }
+    </style>
+    <section class="header">
+        <div class="container">
+            <a href="index.html" class="header__logo">
+                <img src="icons/logo.png" alt="">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li class="menu_item"><a href="index1.html" class="menu_link">Основні принципи</a></li>
+                    <li class="menu_item"><a href="index2.html" class="menu_link">Актуальні тренди</a></li>
+                    <li class="menu_item"><a href="index3.html" class="menu_link">Приклади сайтів</a></li>
+                    <li class="menu_item"><a href="index4.html" class="menu_link">Рекомендації</a></li>
+                    <li class="menu_item"><a href="index5.html" class="menu_link">Цікавинки</a></li>
+                </ul> 
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>         
+            </nav>
+
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <h1>Актуальні тренди веб-дизайну</h1>
+            <div class="descr">
+                Веб-дизайн постійно еволюціонує, з'являються нові тренди, які роблять веб-сайти більш    красивими, зручними та функціональними. <br><br>
+                Далі розглянемо декілька популярних на сьогоднішній день трендів. <br> <br>
+                <b>1. 3D-графіка</b> <br>
+                Як завжди два приклади для розуміння про що йде мова.
+            </div>
+            <div class="container_img_col">
+                <img src="img/image 5.png" alt="">
+                <img src="img/image 6.png" alt="">
+            </div>
+            <div class="descr">
+                Такі веб-сайти одразу привертають до себе увагу за рахунок незвичного для ока дизайну. Часто це не просто якась 3D-графіка, а повноцінна анімація на фоні. Також 3D-елементи можуть використовуватися для фону, логотипу, персонажів або інших елементів сайту. <br><br> 
+                <b>2. Темні теми</b> <br>
+                Приклади темних веб-сайтів.
+            </div>
+            <div class="container_img_col">
+                <img src="img/image 7.png" alt="">
+                <img src="img/image 8.png" alt="">
+            </div>
+            <div class="descr">
+                Темні теми стають все більш популярними, оскільки вони знижують навантаження на очі користувачів і роблять сайт більш стильним. Їх також можна використовувати як для всього сайту так і для окремих його елементів. <br> <br> 
+                <b>3. Мінімалізм</b> <br> 
+                Декілька прикладів класики всього дизайну.
+                <div class="container_img_col">
+                    <img class="imgcol" src="img/image 9.png" alt="">
+                    <img class="imgcol" src="img/image 10.png" alt="">
+                </div>
+                Мінімалізм полягає у використанні мінімальної кількості елементів для створення простого та зрозумілого сайту. Такі сайти легко читати і навігація у них проста і зрозуміла. <br> <br>
+                <b>4. Небруталізм</b> <br> 
+                Дивимось приклад.
+                <div class="container_img_col">
+                    <img class="imgcol" src="img/image 11.png" alt="">
+                </div> 
+                
+                Небруталізм – це тренд, який полягає у використанні «сирих» елементів дизайну, таких як відкритий код або необроблені фотографії. Небруталістичні сайти мають унікальний та неповторний стиль. <br><br>
+
+                <b>5. Велика типографика</b> <br>
+                Приклади нижче.
+                <div class="container_img_col">
+                    <img class="imgcol" src="img/image 12.png" alt="">
+                    <img class="imgcol" src="img/image 13.png" alt="">
+                </div>
+                Велика типографика використовується для того, щоб зробити текст більш читабельним та привабливим. Її використовують для заголовків, підзаголовків або інших важливих елементів тексту. <br><br>
+
+                <b>6. Градієнти</b> <br> 
+                Яскравим прикладом може бути головна сторінка цього сайту і ще один приклад нижче.
+                <div class="container_img_col">
+                    <img class="imgcol" src="img/image 14.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <a href="mailto:design@gmail.com" class="footer_mail">design@gmail.com</a>
+            <div class="footer__descr">© 2024 Всі права захищено</div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background: url('img/bk3.png') no-repeat center center;
+            background-size: cover;
+        }
+        li.menu_item:nth-child(3):after {
+            display: block;
+            position: absolute;
+            width: 90%;
+            content: "";
+        }
+        .descr{
+            line-height: 35px;
+        }
+        li:nth-child(3) .menu_link {
+            font-weight: bold !important; 
+        }
+        @media(max-width: 767px){
+            li.menu_item:nth-child(3):after {
+            display: block;
+            position: absolute;
+            width: 100%;
+            content: "";
+            margin-left: -27px;
+            }   
+        }
+    </style>
+    <section class="header">
+        <div class="container">
+            <a href="index.html" class="header__logo">
+                <img src="icons/logo.png" alt="">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li class="menu_item"><a href="index1.html" class="menu_link">Основні принципи</a></li>
+                    <li class="menu_item"><a href="index2.html" class="menu_link">Актуальні тренди</a></li>
+                    <li class="menu_item"><a href="index3.html" class="menu_link">Приклади сайтів</a></li>
+                    <li class="menu_item"><a href="index4.html" class="menu_link">Рекомендації</a></li>
+                    <li class="menu_item"><a href="index5.html" class="menu_link">Цікавинки</a></li>
+                </ul> 
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>         
+            </nav>
+
+        </div>
+    </section>
+    
+    <section class="content">
+        <div class="container">
+            <h1>Приклади веб-сайтів</h1>
+            <h2 class="subheader">На цій сторінці Ви знайдете посилання на сайти, які успішно втілюють сучасні тренди <br>веб-дизайну.</h2>
+            <div class="descr">
+                Ви можете дослідити ці сайти, щоб побачити, як різні дизайнери використовують тренди, щоб створити красиві, зручні та функціональні веб-сайти.
+                 <br> <br>
+                Рекомендуємо Вам звернути увагу на такі аспекти дизайну: <br>
+                <ul>
+                    <li>як використовуються тренди для створення візуально цікавого та привабливого сайту;</li>
+                    <li>як дизайн сайту робить його зручним та простим у використанні;</li>
+                    <li>як дизайн сайту відповідає потребам користувачів.</li>
+                </ul><br>
+                <b>1. Nurture Digital</b> <br> <br>
+                Nurture Digital – це сайт з сучасним та стильним дизайном, який використовує тренди <br>веб-дизайну для створення зручного та інформативного сайту. <br><br>
+                <b>Веб-сайт:</b> <a href="https://www.nurturedigital.com/"> https://www.nurturedigital.com/</a> <br><br>
+                <b>Тренди:</b> анімація, інтерактивність, велика типографика. <br> <br> <br>
+
+                <b>2. Make Me Pulse</b> <br> <br>
+                Make Me Pulse – це сайт з мінімалістичним дизайном, який використовує типографику та контрастні кольори, щоб зробити сайт візуально цікавим та зручним для користувачів. <br><br>
+                <b>Веб-сайт:</b> <a href=" http://2016.makemepulse.com/.">  http://2016.makemepulse.com/.</a> <br><br>
+                <b>Тренди:</b> мінімалізм, велика типографика, темна тема. <br> <br> <br>
+
+                <b>3. Useplink</b> <br> <br>
+                Useplink – це сайт з сучасним та стильним дизайном, який використовує тренди  веб-дизайну, щоб зробити сайт зручним, інформативним та візуально привабливим. <br><br>
+                <b>Веб-сайт:</b> <a href=" https://useplink.com/en/.">  https://useplink.com/en/.</a> <br><br>
+                <b>Тренди:</b> 3D-графіка, мінімалізм. <br> <br> <br>
+
+                <b>4. Beans Agency</b> <br> <br>
+                Beans Agency – це сайт з динамічним та захоплюючим дизайном, який використовує тренди веб-дизайну, щоб зробити сайт візуально цікавим, зручним для користувачів та інформативним. <br><br>
+                <b>Веб-сайт:</b> <a href=" https://useplink.com/en/"> https://useplink.com/en/.</a> <br><br>
+                <b>Тренди:</b> 3D-графіка, анімація, інтерактивність. <br> <br> <br>
+
+                <b>На цій сторінці Ви знайшли приклади сайтів, які успішно втілюють сучасні тренди <br>веб-дизайну. Пам'ятайте, що веб-дизайн постійно еволюціонує, тому важливо бути в курсі нових трендів.</b>
+                
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <a href="mailto:design@gmail.com" class="footer_mail">design@gmail.com</a>
+            <div class="footer__descr">© 2024 Всі права захищено</div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.footer{
+    margin-top: 100px;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 0 70px rgba(0, 0, 0, 0.5);
+
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.footer_mail{
+    text-decoration: none;
+    color: #000;
+}

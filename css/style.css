@@ -1,0 +1,26 @@
+@import url("header.css");
+@import url("content.css");
+@import url("footer.css");
+@import url("rowimg.css");
+@import url("media.css");
+body{
+    margin: 0;
+    font-family: 'Geologica';
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content .container{
+    width: 1100px;
+}
+
+h1{
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;  
+    color: #000000;    
+}
